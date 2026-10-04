@@ -1,0 +1,1 @@
+const COLORS=['red','yellow','green','blue'];const TYPES={NUMBER:'number',SKIP:'skip',REVERSE:'reverse',DRAW_TWO:'drawTwo',WILD:'wild',WILD_DRAW_FOUR:'wildDrawFour'};module.exports={COLORS,TYPES,MAX_PLAYERS:10,MIN_PLAYERS:2,UNO_TIMEOUT:5000,RECONNECT_GRACE:120000};

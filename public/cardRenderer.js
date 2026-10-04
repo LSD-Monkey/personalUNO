@@ -1,0 +1,1 @@
+const symbols={skip:'⊘',reverse:'↻',drawTwo:'+2',wild:'★',wildDrawFour:'+4'};function renderCard(c,hidden=false){let el=document.createElement('div');el.className='card '+(hidden?'back':(c.color||'wild'));if(!hidden){el.innerHTML=`<b>${c.type==='number'?c.value:(symbols[c.type]||'?')}</b><i>${c.type==='number'?c.value:(symbols[c.type]||'?')}</i>`;}return el;}

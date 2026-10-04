@@ -1,0 +1,1 @@
+class Player{constructor(id,name){this.id=id;this.name=String(name||'Spieler').trim().slice(0,24)||'Spieler';this.hand=[];this.connected=true;this.score=0;this.socketId=null;this.unoCalled=false}}module.exports=Player;
