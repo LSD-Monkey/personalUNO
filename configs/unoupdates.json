@@ -1,0 +1,9 @@
+[
+    {
+        "UpdateStageName": "UNO Update",
+        "UpdateSourcePlatform": "All",
+        "UpdateSource": "GitRepo",
+        "UpdateSourceData": "https://github.com/LSD-Monkey/personalUNO",
+        "UpdateSourceTarget": "personalUNO"
+    }
+]
